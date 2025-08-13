@@ -1,42 +1,30 @@
-Lung Cancer Detection through Air Pollution using Machine Learning
-📌 Overview
-This project leverages Machine Learning to analyze the relationship between air pollution data and lung cancer cases. By training predictive models, it aims to detect potential lung cancer risks based on environmental factors, enabling early interventions and public health awareness.
+# Lung Cancer Detection through Air Pollution using Machine Learning
 
-🚀 Features
-Data preprocessing and cleaning of air pollution & cancer datasets
+## 📌 Overview
+This project explores the relationship between **air pollution levels** and **lung cancer cases** using machine learning models. By analyzing environmental factors, the system predicts potential lung cancer risks, aiming to support early diagnosis and raise public health awareness.
 
-Exploratory Data Analysis (EDA) for pattern discovery
+## 🚀 Features
+- Data preprocessing and cleaning of air pollution & cancer datasets  
+- Exploratory Data Analysis (EDA) to identify key patterns  
+- Model training using machine learning algorithms  
+- Performance evaluation using accuracy, precision, recall, and F1-score  
+- Visual insights into pollution–cancer correlations  
 
-Model training using supervised learning algorithms
+## 🛠 Tech Stack
+- **Python**  
+- **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**  
+- **Scikit-learn**  
+- **Jupyter Notebook**  
 
-Evaluation with accuracy, precision, recall, and F1-score
+## 📂 Dataset
+The dataset includes air quality parameters and cancer patient data.  
+> *Source: Provided dataset in this repository (for educational use only).*
 
-Visualizations for insights into pollution–cancer correlations
+## 📊 Workflow
+1. Import & preprocess the dataset  
+2. Conduct exploratory data analysis  
+3. Train and evaluate predictive models  
+4. Visualize results and key findings  
 
-🛠 Tech Stack
-Python
-
-Pandas, NumPy, Matplotlib, Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-📂 Dataset
-The dataset contains air pollution indicators and cancer patient records.
-
-Note: Dataset source is included in the repository and intended for educational purposes only.
-
-📊 Model Workflow
-Data Import & Preprocessing
-
-Feature Engineering
-
-Model Selection & Training
-
-Evaluation & Metrics
-
-Result Visualization
-
-📈 Results
-The trained model demonstrates strong predictive capabilities, highlighting significant correlations between air quality parameters and lung cancer incidence.
+## 📈 Results
+The final model achieved promising accuracy, demonstrating a significant link between certain air pollutants and lung cancer prevalence.
